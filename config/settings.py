@@ -1,6 +1,3 @@
-"""
-Django settings for C_TRACKER project.
-"""
 
 import os
 from pathlib import Path
@@ -25,9 +22,9 @@ if not SECRET_KEY:
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "cd.imcbs.co",
-    "localhost",
-    "127.0.0.1",
+    'cd.imcbs.com',
+    'localhost',
+    '127.0.0.1',
 ]
 
 
@@ -72,11 +69,11 @@ MIDDLEWARE = [
 # --------------------------------------------------
 
 CORS_ALLOWED_ORIGINS = [
-    "https://cd.imcbs.co",
+    "cd.imcbs.com'",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://cd.imcbs.co",
+    "cd.imcbs.com'",
 ]
 
 
@@ -187,7 +184,7 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 
 # --------------------------------------------------
-# DEFAULT PRIMARY KEY
+# DEFAULT PRIMARY KEYY
 # --------------------------------------------------
 
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
